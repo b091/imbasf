@@ -1,0 +1,4 @@
+services:
+#    imbax_cms.example:
+#        class: Imbax\CMSBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

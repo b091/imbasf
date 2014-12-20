@@ -1,0 +1,28 @@
+imbax_cms_cms_page:
+    resource: "@ImbaxCMSBundle/Resources/config/routing/page.yml"
+    prefix:   /cms/page
+
+imbax_cms_cms_category:
+    resource: "@ImbaxCMSBundle/Resources/config/routing/category.yml"
+    prefix:   /cms/category
+
+imbax_cms_cms_user:
+    resource: "@ImbaxCMSBundle/Resources/config/routing/user.yml"
+    prefix:   /cms/user
+
+imbax_cms_homepage:
+    path:     /
+    defaults: { _controller: ImbaxCMSBundle:Default:index }
+
+imbax_cms_page_display:
+    path: /page/{id}
+    defaults: { _controller: ImbaxCMSBundle:Default:display }
+login:
+    path: /login
+    defaults: { _controller: ImbaxCMSBundle:Security:login }
+
+login_check:
+    path: /login_check
+
+logout:
+    path: /logout

@@ -1,0 +1,7 @@
+imbax_cms:
+    resource: "@ImbaxCMSBundle/Resources/config/routing.yml"
+    prefix:   /
+
+imbax_manager:
+    resource: "@ImbaxManagerBundle/Resources/config/routing.yml"
+    prefix:   /book
